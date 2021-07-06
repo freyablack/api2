@@ -1,0 +1,54 @@
+.navbar a{
+    color: purple;
+}
+
+.navbar-bg{
+    background: gray;
+}
+
+.jumbotron{
+    text-align: center;
+    background-color: honeydew;
+}
+
+.jumbotron h1{
+    text-decoration: underline;
+}
+
+.jumbotron p{
+    font-weight: 600;
+}
+
+.body-wrapper{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* border: solid 2px black; */
+    width: 900px;
+}
+
+.body-wrapper img{
+    margin: 10px 10px 10px 10px;
+}
+
+.picture-cluster{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture-cluster img:hover{
+    border: 1px solid black;
+}
+
+#switch{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

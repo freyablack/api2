@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./wiiu.css">
+</head>
+<body>
+    <!--! Navbar -->
+    <nav class="navbar navbar-none bg-secondary">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./assets/nav-buttons/home-nav.png" alt="home" width="45" height="45">
+                <h6>Home</h6>
+              </a>
+          <a class="navbar-brand" href="./nes.html">
+            <img src="./assets/nav-buttons/NES-nav.png" alt="nes" width="45" height="45">
+            <h6>NES</h6>
+          </a>
+          <a class="navbar-brand" href="./snes.html">
+            <img src="./assets/nav-buttons/SNES-nav.png" alt="snes" width="45" height="45">
+            <h6>SNES</h6>
+          </a>
+          <a class="navbar-brand" href="./n64.html">
+            <img src="./assets/nav-buttons/N64-nav.png" alt="n64" width="45" height="45">
+            <h6>N64</h6>
+          </a>
+          <a class="navbar-brand" href="./gcn.html">
+            <img src="./assets/nav-buttons/GCN-nav.png" alt="gcn" width="45" height="45">
+            <h6>GCN</h6>
+          </a>
+          <a class="navbar-brand" href="./wii.html">
+            <img src="./assets/nav-buttons/Wii-nav.png" alt="wii" width="45" height="45">
+            <h6>Wii</h6>
+          </a>
+          <a class="navbar-brand" href="./wiiu.html">
+            <img src="./assets/nav-buttons/WiiU-pic.png" alt="wiiu" width="45" height="45">
+            <h6>WiiU</h6>
+          </a>
+          <a class="navbar-brand" href="./switch.html">
+            <img src="./assets/nav-buttons/switch-nav.png" alt="switch" width="45" height="45">
+            <h6>Switch</h6>
+          </a>
+        </div>
+      </nav>
+      <!--! Header -->
+      <div class="jumbotron">
+        <h1>Wii U</h1>
+        <p>2012 - 2017</p>
+      </div>
+      <!--! Body Content -->
+      <div id="games">
+      <!--* New Super Mario Bros U -->
+    <!-- button -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#MBU">
+      <img src="./assets/games/brosu.png" alt="" height="350">
+    </button>
+    <!-- modal -->
+    <div class="modal fade" id="MBU" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="MBUtitle"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="MBUimages" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="" class="d-block w-100" id="MBUimg1" alt="" width="100" height="200">
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100" id="MBUimg2" alt="" width="100" height="200">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#MBUimages" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#MBUimages" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Description:</h5>
+            <p id="MBUabout"></p>
+            <h6>Developed by:</h6><p id="MBUdev"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--* Donkey Kong Country Tropical Freeze -->
+    <!-- button -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#TropF">
+      <img src="./assets/games/tropicalfreeze.jpg" alt="" height="350">
+    </button>
+    <!-- modal -->
+    <div class="modal fade" id="TropF" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TropFtitle"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="TropFimages" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="" class="d-block w-100" id="TropFimg1" alt="" width="100" height="200">
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100" id="TropFimg2" alt="" width="100" height="200">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#TropFimages" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#TropFimages" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Description:</h5>
+            <p id="TropFabout"></p>
+            <h6>Developed by:</h6><p id="TropFdev"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--* Zombie U -->
+    <!-- button -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Zombie">
+      <img src="./assets/games/zombieu.jpg" alt="" height="350">
+    </button>
+    <!-- modal -->
+    <div class="modal fade" id="Zombie" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="Zombietitle"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="Zombieimages" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="" class="d-block w-100" id="Zombieimg1" alt="" width="100" height="200">
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100" id="Zombieimg2" alt="" width="100" height="200">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#Zombieimages" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#Zombieimages" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Description:</h5>
+            <p id="Zombieabout"></p>
+            <h6>Developed by:</h6><p id="Zombiedev"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--* Super Smash Bros. U -->
+    <!-- button -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#SSBU">
+      <img src="./assets/games/ssbu.png" alt="" height="350">
+    </button>
+    <!-- modal -->
+    <div class="modal fade" id="SSBU" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="SSBUtitle"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="SSBUimages" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="" class="d-block w-100" id="SSBUimg1" alt="" width="100" height="200">
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100" id="SSBUimg2" alt="" width="100" height="200">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#SSBUimages" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#SSBUimages" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Description:</h5>
+            <p id="SSBUabout"></p>
+            <h6>Developed by:</h6><p id="SSBUdev"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--* Bayonetta 2 -->
+    <!-- button -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Bayo">
+      <img src="./assets/games/bayo2.png" alt="" height="350">
+    </button>
+    <!-- modal -->
+    <div class="modal fade" id="Bayo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="Bayotitle"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="Bayoimages" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="" class="d-block w-100" id="Bayoimg1" alt="" width="100" height="200">
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100" id="Bayoimg2" alt="" width="100" height="200">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#Bayoimages" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#Bayoimages" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Description:</h5>
+            <p id="Bayoabout"></p>
+            <h6>Developed by:</h6><p id="Bayodev"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!--! Nothing Past This Point -->
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

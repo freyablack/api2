@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./nes.css">
+</head>
+<body>
+  <!--! Navbar -->
+  <nav class="navbar navbar-none bg-secondary">
+    <div class="container">
+        <a class="navbar-brand" href="./index.html">
+            <img src="./assets/nav-buttons/home-nav.png" alt="home" width="45" height="45">
+            <h6>Home</h6>
+          </a>
+      <a class="navbar-brand" href="./nes.html">
+        <img src="./assets/nav-buttons/NES-nav.png" alt="nes" width="45" height="45">
+        <h6>NES</h6>
+      </a>
+      <a class="navbar-brand" href="./snes.html">
+        <img src="./assets/nav-buttons/SNES-nav.png" alt="snes" width="45" height="45">
+        <h6>SNES</h6>
+      </a>
+      <a class="navbar-brand" href="./n64.html">
+        <img src="./assets/nav-buttons/N64-nav.png" alt="n64" width="45" height="45">
+        <h6>N64</h6>
+      </a>
+      <a class="navbar-brand" href="./gcn.html">
+        <img src="./assets/nav-buttons/GCN-nav.png" alt="gcn" width="45" height="45">
+        <h6>GCN</h6>
+      </a>
+      <a class="navbar-brand" href="./wii.html">
+        <img src="./assets/nav-buttons/Wii-nav.png" alt="wii" width="45" height="45">
+        <h6>Wii</h6>
+      </a>
+      <a class="navbar-brand" href="./wiiu.html">
+        <img src="./assets/nav-buttons/WiiU-pic.png" alt="wiiu" width="45" height="45">
+        <h6>WiiU</h6>
+      </a>
+      <a class="navbar-brand" href="./switch.html">
+        <img src="./assets/nav-buttons/switch-nav.png" alt="switch" width="45" height="45">
+        <h6>Switch</h6>
+      </a>
+    </div>
+  </nav>
+
+  <!--! Header -->
+  <div class="jumbotron">
+    <h1>NES</h1>
+    <p>1985 - 1995</p>
+  </div>
+
+  <!--! Body Content -->
+<div id="games">
+  <!--* Megaman2 -->
+  <!-- button -->
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mm2">
+    <img src="./assets/games/Megaman2_box.jpg" alt="" height="350">
+  </button>
+  <!-- modal -->
+  <div class="modal fade" id="mm2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="mm2title"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="" class="d-block w-100" id="mm2img1" alt="" width="100" height="200">
+            </div>
+            <div class="carousel-item">
+              <img src="" class="d-block w-100" id="mm2img2" alt="" width="100" height="200">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h5>Description:</h5>
+          <p id="mm2about"></p>
+          <h6>Developed by:</h6><p id="mm2dev"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--* Legend of Zelda -->
+    <!-- button -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loz">
+      <img src="./assets/games/NES-loz.png" alt="" height="350">
+    </button>
+    <!-- modal -->
+    <div class="modal fade" id="loz" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="loztitle"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="lozimages" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="" class="d-block w-100" id="lozimg1" alt="" width="100" height="200">
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100" id="lozimg2" alt="" width="100" height="200">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#lozimages" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#lozimages" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Description:</h5>
+            <p id="lozabout"></p>
+            <h6>Developed by:</h6><p id="lozdev"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--* Mario Bros 3 -->
+    <!-- button -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mb3">
+      <img src="./assets/games/NES-SMB3.png" alt="" height="350">
+    </button>
+    <!-- modal -->
+    <div class="modal fade" id="mb3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="mb3title"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="mb3images" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="" class="d-block w-100" id="mb3img1" alt="" width="100" height="200">
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100" id="mb3img2" alt="" width="100" height="200">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mb3images" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mb3images" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Description:</h5>
+            <p id="mb3about"></p>
+            <h6>Developed by:</h6><p id="mb3dev"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--* Metroid -->
+    <!-- button -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#metroid">
+      <img src="./assets/games/NES-metroid.jpg" alt="" height="350">
+    </button>
+    <!-- modal -->
+    <div class="modal fade" id="metroid" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="metroidtitle"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="metroidimages" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="" class="d-block w-100" id="metroidimg1" alt="" width="100" height="200">
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100" id="metroidimg2" alt="" width="100" height="200">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#metroidimages" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#metroidimages" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Description:</h5>
+            <p id="metroidabout"></p>
+            <h6>Developed by:</h6><p id="metroiddev"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--* Dragon Quest 3 -->
+    <!-- button -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#DQ3">
+      <img src="./assets/games/NES-dq3.jpg" alt="" height="350">
+    </button>
+    <!-- modal -->
+    <div class="modal fade" id="DQ3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="DQ3title"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="DQ3images" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="" class="d-block w-100" id="DQ3img1" alt="" width="100" height="200">
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100" id="DQ3img2" alt="" width="100" height="200">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#DQ3images" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#DQ3images" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Description:</h5>
+            <p id="DQ3about"></p>
+            <h6>Developed by:</h6><p id="DQ3dev"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+    <!--! Footer -->
+  <!--! Nothing Past This Point -->
+  <script src="./app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

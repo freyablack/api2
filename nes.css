@@ -1,0 +1,31 @@
+.navbar a{
+    color: purple;
+}
+
+.navbar-bg{
+    background: gray;
+}
+
+.jumbotron{
+    text-align: center;
+    background-color: honeydew;
+}
+
+.jumbotron h1{
+    text-decoration: underline;
+}
+
+.jumbotron p{
+    font-weight: 600;
+}
+
+.btn-primary{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+#games{
+    display: flex;
+    justify-content: center;
+}

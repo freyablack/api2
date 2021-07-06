@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./switch.css">
+</head>
+<body>
+    <!--! Navbar -->
+    <nav class="navbar navbar-none bg-secondary">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./assets/nav-buttons/home-nav.png" alt="home" width="45" height="45">
+                <h6>Home</h6>
+              </a>
+          <a class="navbar-brand" href="./nes.html">
+            <img src="./assets/nav-buttons/NES-nav.png" alt="nes" width="45" height="45">
+            <h6>NES</h6>
+          </a>
+          <a class="navbar-brand" href="./snes.html">
+            <img src="./assets/nav-buttons/SNES-nav.png" alt="snes" width="45" height="45">
+            <h6>SNES</h6>
+          </a>
+          <a class="navbar-brand" href="./n64.html">
+            <img src="./assets/nav-buttons/N64-nav.png" alt="n64" width="45" height="45">
+            <h6>N64</h6>
+          </a>
+          <a class="navbar-brand" href="./gcn.html">
+            <img src="./assets/nav-buttons/GCN-nav.png" alt="gcn" width="45" height="45">
+            <h6>GCN</h6>
+          </a>
+          <a class="navbar-brand" href="./wii.html">
+            <img src="./assets/nav-buttons/Wii-nav.png" alt="wii" width="45" height="45">
+            <h6>Wii</h6>
+          </a>
+          <a class="navbar-brand" href="./wiiu.html">
+            <img src="./assets/nav-buttons/WiiU-pic.png" alt="wiiu" width="45" height="45">
+            <h6>WiiU</h6>
+          </a>
+          <a class="navbar-brand" href="./switch.html">
+            <img src="./assets/nav-buttons/switch-nav.png" alt="switch" width="45" height="45">
+            <h6>Switch</h6>
+          </a>
+        </div>
+      </nav>
+      <!--! Header -->
+      <div class="jumbotron">
+        <h1>Nintendo Switch</h1>
+        <p>2017 - Present</p>
+      </div>
+      <!--! Body Contents -->
+      <div id="games">
+      <!--* Breath of the Wild -->
+    <!-- button -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#BotW">
+      <img src="./assets/games/botw.jpg" alt="" height="350">
+    </button>
+    <!-- modal -->
+    <div class="modal fade" id="BotW" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="BotWtitle"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="BotWimages" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="" class="d-block w-100" id="BotWimg1" alt="" width="100" height="200">
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100" id="BotWimg2" alt="" width="100" height="200">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#BotWimages" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#BotWimages" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Description:</h5>
+            <p id="BotWabout"></p>
+            <h6>Developed by:</h6><p id="BotWdev"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--* Mario Odyssey -->
+    <!-- button -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Odyssey">
+      <img src="./assets/games/odyssey.jpg" alt="" height="350">
+    </button>
+    <!-- modal -->
+    <div class="modal fade" id="Odyssey" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="Odysseytitle"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="Odysseyimages" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="" class="d-block w-100" id="Odysseyimg1" alt="" width="100" height="200">
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100" id="Odysseyimg2" alt="" width="100" height="200">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#Odysseyimages" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#Odysseyimages" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Description:</h5>
+            <p id="Odysseyabout"></p>
+            <h6>Developed by:</h6><p id="Odysseydev"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--* Metroid Dread -->
+    <!-- button -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Dread">
+      <img src="./assets/games/dread.png" alt="" height="350">
+    </button>
+    <!-- modal -->
+    <div class="modal fade" id="Dread" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="Dreadtitle"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="Dreadimages" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="" class="d-block w-100" id="Dreadimg1" alt="" width="100" height="200">
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100" id="Dreadimg2" alt="" width="100" height="200">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#Dreadimages" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#Dreadimages" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Description:</h5>
+            <p id="Dreadabout"></p>
+            <h6>Developed by:</h6><p id="Dreaddev"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--* Fire Emblem: Three Houses -->
+    <!-- button -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#3House">
+      <img src="./assets/games/three-houses.jpg" alt="" height="350">
+    </button>
+    <!-- modal -->
+    <div class="modal fade" id="3House" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="3Housetitle"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="3Houseimages" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="" class="d-block w-100" id="3Houseimg1" alt="" width="100" height="200">
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100" id="3Houseimg2" alt="" width="100" height="200">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#3Houseimages" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#3Houseimages" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Description:</h5>
+            <p id="3Houseabout"></p>
+            <h6>Developed by:</h6><p id="3Housedev"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--* Monster Hunter Rise -->
+    <!-- button -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#MHRise">
+      <img src="./assets/games/rise.jpg" alt="" height="350">
+    </button>
+    <!-- modal -->
+    <div class="modal fade" id="MHRise" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="MHRisetitle"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="MHRiseimages" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="" class="d-block w-100" id="MHRiseimg1" alt="" width="100" height="200">
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100" id="MHRiseimg2" alt="" width="100" height="200">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#MHRiseimages" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#MHRiseimages" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Description:</h5>
+            <p id="MHRiseabout"></p>
+            <h6>Developed by:</h6><p id="MHRisedev"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!--! Nothing Past This Point -->
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
